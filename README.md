@@ -16,6 +16,9 @@ Products are stored in memory and reset when the page is reloaded.
 I use a delegated `click` listener on the container that holds the form and product cards. It finds the clicked button with `closest()` and reads `data-action` to choose add, remove, or update. This also works for cards created after the page loads, without adding listeners to each button. I handle the form's `submit` event to support keyboard submission and use `preventDefault()` to prevent a page reload. After a successful change, I render the cards again and update the total.
 ## Screenshot
 ![Store page with product cards and total](screenshots/page.png)
+
+## Live demo
+[Open Store](https://tleugabylov-dias.github.io/dom-store-tleugabylov/)
 ## AI tools
 
 I used ChatGPT/Codex for step-by-step guidance, code examples, styling, and explanations of DOM events and validation.
